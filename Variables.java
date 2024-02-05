@@ -7,5 +7,7 @@ class Variables
 	{
 		byte b=5;
 		System.out.println(b);
+		b=25;
+		System.out.println(b);
 	}
 }
