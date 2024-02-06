@@ -17,11 +17,11 @@ class LiteralJava
 
 		//LONG LITERAL
 		long l=999999999999L;
-		System.out.println(i);
+		System.out.println(l);
 
 		//FLOAT & DOUBLE
-		float f=12.56;
-		double d=12.56;
+		float f=12.56f;
+		double d=12.56d;
 		System.out.println(f);
 		System.out.println(d);
 	}
