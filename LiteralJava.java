@@ -17,6 +17,7 @@ class LiteralJava
 
 		//LONG LITERAL
 		long l=999999999999L;
-		System.out.println(l);
+		int i=125L;
+		System.out.println(i);
 	}
 }
