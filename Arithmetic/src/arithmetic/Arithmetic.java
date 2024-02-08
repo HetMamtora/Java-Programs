@@ -28,7 +28,12 @@ public class Arithmetic
         short b2=15;
         int c2=a2+b2;
         
+        float a3=12.5f;
+        long b3=123l;
+        float c3=a3+b3;
+        
         System.out.println("C2: "+c2);
+        System.out.println("C3: "+c3);
     }
     
 }
