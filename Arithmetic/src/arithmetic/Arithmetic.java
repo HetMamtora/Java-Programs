@@ -32,8 +32,13 @@ public class Arithmetic
         long b3=123l;
         float c3=a3+b3;
         
+        char a4=40;
+        int b4=30;
+        int c4=a4-b4;
+        
         System.out.println("C2: "+c2);
         System.out.println("C3: "+c3);
+        System.out.println("C4: "+c4);
     }
     
 }
