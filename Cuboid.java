@@ -15,7 +15,7 @@ class Cuboid
 		breadth=sc.nextInt();
 		height=sc.nextInt();
 
-		area=(length*height)+(length*breadth)+(breadth*height);
+		area=2*((length*height)+(length*breadth)+(breadth*height));
 		System.out.println("Area of Cuboid: " +area);
 
 		volume=length*breadth*height;
