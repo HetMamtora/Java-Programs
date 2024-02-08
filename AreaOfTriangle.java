@@ -31,7 +31,7 @@ class AreaOfTriangle
 
 		s=(a+b+c)/2f;
 		area1=Math.sqrt(s*(s-a)*(s-b)*(s-c));
-		System.out.println("Area of Triangle2:");
+		System.out.println("Area of Triangle2: " +area1);
 		
 	}
 
