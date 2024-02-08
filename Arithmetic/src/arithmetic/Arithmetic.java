@@ -18,6 +18,10 @@ public class Arithmetic
         System.out.println("R1: "+r1);
         
         //FLOAT DATA TYPE
+        float a1=14.3f, b1=3.2f;
+        float r2=a1%b1;
+        
+        System.out.println("R2: "+r2);
     }
     
 }
