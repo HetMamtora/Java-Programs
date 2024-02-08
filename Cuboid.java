@@ -19,5 +19,6 @@ class Cuboid
 		System.out.println("Area of Cuboid: " +area);
 
 		volume=length*breadth*height;
+		System.out.println("Volume of Cuboid: " +volume);
 	}
 }
