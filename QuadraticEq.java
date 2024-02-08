@@ -14,5 +14,11 @@ class QuadraticEq
 		a=sc.nextInt();
 		b=sc.nextInt();
 		c=sc.nextInt();
+
+		r1=(-b)+Math.sqrt((b*b)-(4*a*c))/2*a;
+		r2=(-b)-Math.sqrt((b*b)-(4*a*c))/2*a;
+		
+		System.out.println("Root 1: "+r1);
+		System.out.println("Root 2: "+r2);
 	}
 }
