@@ -22,6 +22,13 @@ public class Arithmetic
         float r2=a1%b1;
         
         System.out.println("R2: "+r2);
+        
+        //EXPRESSIONS
+        byte a2=10;
+        short b2=15;
+        int c2=a2+b2;
+        
+        System.out.println("C2: "+c2);
     }
     
 }
