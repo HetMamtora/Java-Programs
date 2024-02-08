@@ -13,7 +13,7 @@ class AreaOfTriangle
 		System.out.println("Enter Height: ");
 		height=sc.nextFloat();
 
-		area=(1/2)*base*height;
+		area=base*height/2;
 		System.out.println("Area of Triangle: "+area);
 
 	}
