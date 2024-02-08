@@ -41,7 +41,11 @@ public class Arithmetic
         System.out.println("C4: "+c4);
         
         //PRECEDENCE OF OPERATORS
+        System.out.println(10+20/2);
         System.out.println((10+20)/2);
+        
+        System.out.println(10/2*5);
+        System.out.println(10/(2*5));
     }
     
 }
