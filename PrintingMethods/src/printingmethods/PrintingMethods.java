@@ -6,6 +6,7 @@ public class PrintingMethods {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        //PRINT & PRINTF
         int a=10;
         float b=12.55f;
         char c='A';
@@ -22,8 +23,10 @@ public class PrintingMethods {
         System.out.println(x+y+" Sum");
         System.out.println("Sum "+ x+y);
         System.out.println("Sum "+ (x+y));
-        
         System.out.println("Sum of "+x+" and "+y+" is "+(x+y));
+        
+        //PRINTF & FORMAT
+        System.out.printf("Hello\n");
     }
     
 }
