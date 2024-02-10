@@ -22,6 +22,8 @@ public class PrintingMethods {
         System.out.println(x+y+" Sum");
         System.out.println("Sum "+ x+y);
         System.out.println("Sum "+ (x+y));
+        
+        System.out.println("Sum of "+x+" and "+y+" is "+(x+y));
     }
     
 }
