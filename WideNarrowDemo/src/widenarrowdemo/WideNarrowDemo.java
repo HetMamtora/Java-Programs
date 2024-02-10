@@ -24,6 +24,10 @@ public class WideNarrowDemo {
         l=s;
         f=s;
         d=s;
+        
+        f=i;
+        d=f;
+        
     }
     
 }
