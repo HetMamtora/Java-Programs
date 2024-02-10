@@ -15,6 +15,13 @@ public class PrintingMethods {
         System.out.println(b);
         System.out.println(c);
         System.out.println(str);
+        
+        int x=10,y=20;
+        System.out.println(x+y);
+        System.out.println("Number is "+y);
+        System.out.println(x+y+" Sum");
+        System.out.println("Sum "+ x+y);
+        System.out.println("Sum "+ (x+y));
     }
     
 }
