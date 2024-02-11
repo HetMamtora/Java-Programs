@@ -5,6 +5,8 @@ public class SCString {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        //FIND IF THE EMAIL ID IS ON GMAIL OR NOT
+        
         String str="abcd@gmail.com";
         
         int i=str.indexOf("@");
