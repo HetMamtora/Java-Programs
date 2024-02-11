@@ -35,6 +35,14 @@ public class PrintingMethods {
         //WIDTH & PRECESSION
         int n=10;
         System.out.printf("%05d \n",n);
+        int n1=-10;
+        System.out.printf("%(5d \n",n1);
+        
+        float f1=123.45f;
+        System.out.printf("%6.2f \n",f1);
+        
+        String str1="Java";
+        System.out.printf("%-20s \n",str1);
     }
     
 }
