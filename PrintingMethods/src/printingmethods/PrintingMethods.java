@@ -26,7 +26,15 @@ public class PrintingMethods {
         System.out.println("Sum of "+x+" and "+y+" is "+(x+y));
         
         //PRINTF & FORMAT
-        System.out.printf("Hello\n");
+        int x1=10;
+        float y1=12.56f;
+        char z='A';
+        //%d for int, %f for float, %c for char
+        System.out.printf("Hello %d, %f, %c World !\n",x1,y1,z);
+        
+        //WIDTH & PRECESSION
+        int n=10;
+        System.out.printf("%05d \n",n);
     }
     
 }
