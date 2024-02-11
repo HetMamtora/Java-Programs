@@ -41,6 +41,26 @@ public class SCString {
         String str3="01/12/2000";
         System.out.println(str3);
         System.out.println(str3.matches("[0-3][0-9]/[0-1][0-9]/[0-9]{4}"));
+        
+        //5-REMOVE SPECIAL CHARACTERS FROM STRING
+        System.out.println("\n5-REMOVE SPECIAL CHARACTERS FROM STRING");
+        String str4="a!B@c#1$2%3";
+        System.out.println(str4);
+        System.out.println(str4.replaceAll("[^a-zA-Z0-9]",""));
+        
+        //6-REMOVE EXTRA SPACES FROM STRING
+        System.out.println("\n6-REMOVE EXTRA SPACES FROM STRING");
+        String str5="abc    def    gh    ijk";
+        System.out.println(str5);
+        System.out.println(str5.replaceAll("\\s+"," "));
+        
+        //7-FIND NO. OF WORDS IN A STRING
+        System.out.println("\n7-FIND NO. OF WORDS IN A STRING");
+        String str6="    abc    def    gh    ijk    ";
+        str6=str6.replaceAll("\\s+", " ").trim();
+        String words[]=str6.split("\\s");
+        System.out.println(str6);
+        System.out.println(words.length);
     }
     
 }
