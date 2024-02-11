@@ -88,6 +88,21 @@ public class StringPractice {
         System.out.println(str18.contains("wall"));
         System.out.println(str18.concat(str19));
         
+        //REGULAR EXPRESSIONS IN STRING
+        System.out.println("\nREGULAR EXPRESSIONS IN::");
+        
+        String str20="f";
+        System.out.println(str20.matches("."));
+        String str21="b";
+        String str22="a4";
+        String str23="5";
+        System.out.println(str21.matches("[abc]"));
+        System.out.println(str21.matches("[^abc]"));
+        System.out.println(str21.matches("[a-z0-9]"));
+        System.out.println(str22.matches("[a-z][0-9]"));
+        System.out.println(str20.matches("\\w")); //REFER FROM NOTES AND LECTURE
+        System.out.println(str23.matches("\\w"));
+        
         
     }
     
