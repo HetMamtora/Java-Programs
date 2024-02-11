@@ -35,6 +35,12 @@ public class SCString {
         String str2="234AB";
         System.out.println(str2);
         System.out.println(str2.matches("[0-9A-F]+"));
+        
+        //4-FIND IF DATE IS PROPER DATE FORMAT OR NOT[dd/mm/yyyy]
+        System.out.println("\n4-FIND IF DATE IS PROPER DATE FORMAT OR NOT[dd/mm/yyyy]");
+        String str3="01/12/2000";
+        System.out.println(str3);
+        System.out.println(str3.matches("[0-3][0-9]/[0-1][0-9]/[0-9]{4}"));
     }
     
 }
