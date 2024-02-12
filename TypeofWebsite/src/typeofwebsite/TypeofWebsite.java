@@ -13,7 +13,6 @@ public class TypeofWebsite {
         url=sc.nextLine();
         
         String protocol=url.substring(0,url.indexOf(":"));
-        
         if(protocol.equals("http"))
         {
             System.out.println("HyperText Transfer Protocol");
@@ -21,6 +20,12 @@ public class TypeofWebsite {
         else if(protocol.equals("ftp"))
         {
             System.out.println("File Transfer Protocol");
+        }
+        
+        String ext=url.substring(url.lastIndexOf("."));
+        if(ext.equals("com"))
+        {
+            System.out.println("");
         }
     }
     
