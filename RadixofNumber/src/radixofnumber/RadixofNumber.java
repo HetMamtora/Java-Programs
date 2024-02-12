@@ -9,7 +9,7 @@ public class RadixofNumber {
         
         String num;
         System.out.println("Enter a Number: ");
-        num=sc.nextInt();
+        num=sc.nextLine();
         
         if(num.matches("[01]+"))
         {
@@ -23,7 +23,14 @@ public class RadixofNumber {
         {
             System.out.println("Decimal Radix: 10");
         }
-        else if(num.matches())
+        else if(num.matches("[0-9A-F]+"))
+        {
+            System.out.println("Hexa Radix: 16");
+        }
+        else
+        {
+            System.out.println("Not a Number");
+        }
         
     }
     
