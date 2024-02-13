@@ -6,7 +6,6 @@ public class SwitchCase {
         // TODO code application logic here
         
         int n=2;
-        
         switch(n)
         {
             case 1: System.out.println("One");
