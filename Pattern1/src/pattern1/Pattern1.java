@@ -38,6 +38,18 @@ public class Pattern1 {
             }
             System.out.println("");
         }
+        
+        System.out.println("\nPattern-3: ");
+        int i3,j3,count=0;
+        for(i3=1;i3<=5;i3++)
+        {
+            for(j3=1;j3<=5;j3++)
+            {
+                count++;
+                System.out.format("%02d ",count);
+            }
+            System.out.println("");
+        }
     }
     
 }
