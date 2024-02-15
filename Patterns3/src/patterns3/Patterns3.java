@@ -1,6 +1,6 @@
-package patterns2;
+package patterns3;
 
-public class Patterns2 {
+public class Patterns3 {
 
     public static void main(String[] args) {
         // TODO code application logic here
@@ -9,35 +9,42 @@ public class Patterns2 {
         int i,j;
         for(i=1;i<=5;i++)
         {
-            for(j=1;j<=i;j++)
+            for(j=1;j<=5;j++)
             {
-                System.out.print(j+" ");
+                if(i<=j)
+                    System.out.print("* ");
+                else
+                    System.out.print("  ");
             }
             System.out.println("");
         }
         
         System.out.println("\nPattern-2: ");
-        int count=0;
         for(i=1;i<=5;i++)
         {
-            for(j=1;j<=i;j++)
+            for(j=1;j<=5;j++)
             {
-                count++;
-                System.out.print(count+" ");
+                if(i+j>5)
+                    System.out.print("* ");
+                else
+                    System.out.print("  ");
             }
             System.out.println("");
         }
         
         System.out.println("\nPattern-3: ");
+        int k;
         for(i=1;i<=5;i++)
         {
-            for(j=1;j<=5-i+1;j++)
+            for(j=1;j<=5;j++)
             {
-                System.out.print(j+" ");
+                if(i+j>5)
+                    System.out.print("* ");
+                else
+                    System.out.print("  ");
             }
             System.out.println("");
         }
-        
     }
     
 }

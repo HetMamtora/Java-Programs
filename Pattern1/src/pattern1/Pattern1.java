@@ -18,32 +18,30 @@ public class Pattern1 {
         }
         
         System.out.println("\nPattern-2: ");
-        int i1,j1;
-        for(i1=1;i1<=5;i1++)
+        for(i=1;i<=5;i++)
         {
-            for(j1=1;j1<=5;j1++)
+            for(j=1;j<=5;j++)
             {
-                System.out.print(i1+" ");
+                System.out.print(i+" ");
             }
             System.out.println("");
         }
         
         System.out.println("\nPattern-3: ");
-        int i2,j2;
-        for(i2=1;i2<=5;i2++)
+        for(i=1;i<=5;i++)
         {
-            for(j2=1;j2<=5;j2++)
+            for(j=1;j<=5;j++)
             {
-                System.out.print(i2+j2+" ");
+                System.out.print(i+j+" ");
             }
             System.out.println("");
         }
         
-        System.out.println("\nPattern-3: ");
-        int i3,j3,count=0;
-        for(i3=1;i3<=5;i3++)
+        System.out.println("\nPattern-4: ");
+        int count=0;
+        for(i=1;i<=5;i++)
         {
-            for(j3=1;j3<=5;j3++)
+            for(j=1;j<=5;j++)
             {
                 count++;
                 System.out.format("%02d ",count);
