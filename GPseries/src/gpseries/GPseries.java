@@ -7,7 +7,7 @@ public class GPseries {
         // TODO code application logic here
         
         Scanner sc=new Scanner(System.in);
-        System.out.println("Program to print Arithmetic Progression Series");
+        System.out.println("Program to print Geometric Progression Series");
         
         int a,r,n,i,term;
         System.out.println("Enter value for A: ");
