@@ -22,6 +22,24 @@ public class TwoDArrayPrac {
             }
             System.out.println("");
         }
+        
+        //JAGGED ARRAY
+        System.out.println("\nJAGGED ARRAY");
+        int A1[][];
+        A1=new int[3][];
+        
+        A1[0]=new int[5];
+        A1[1]=new int[3];
+        A1[2]=new int[8];
+        
+        for (i=0; i<A1.length;i++)
+        {
+            for(j=0;j<A1[i].length;j++)
+            {
+                System.out.print(A1[i][j]+" ");
+            }
+            System.out.println("");
+        }
     }
     
 }
