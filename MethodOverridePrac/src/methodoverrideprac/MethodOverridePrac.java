@@ -26,5 +26,9 @@ public class MethodOverridePrac {
         
         Sub s=new Sub();
         s.display();
+        
+        //DYNAMIC METHOD DISPATCH
+        Super sup1=new Sub();
+        sup1.display();
     }
 }
