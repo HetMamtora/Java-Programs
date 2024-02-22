@@ -28,6 +28,7 @@ public class InheritanceConstructors {
         // TODO code application logic here
         
         //Parent p=new Parent();
+        //Child c=new Child();
         GrandChild g=new GrandChild();
     }
     
