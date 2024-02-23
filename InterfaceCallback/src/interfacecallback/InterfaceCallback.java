@@ -28,6 +28,7 @@ class Customer implements Member
     {
         name=n;
     }
+    @Override
     public void callback()
     {
         System.out.println("Ok, I will take a visit, "+name);   
