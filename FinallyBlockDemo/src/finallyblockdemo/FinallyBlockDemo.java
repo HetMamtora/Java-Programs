@@ -15,7 +15,7 @@ public class FinallyBlockDemo {
     public static void main(String[] args) throws Exception{
         // TODO code application logic here
         
-        
+        //METHOD-2
         method1();
         
         /* METHOD-1
