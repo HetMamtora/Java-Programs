@@ -33,11 +33,11 @@ public class MultiThreadingThreadDemo {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        ThreadTest t=new ThreadTest();
-        t.start();
+        //MyThread t=new MyThread();
+        //t.start();
         
-        //ThreadTest t1=new ThreadTest();
-        //t1.start();
+        ThreadTest t1=new ThreadTest();
+        t1.start();
         
         
         int i=1;
