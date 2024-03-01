@@ -36,10 +36,7 @@ public class ByteArrayDemo {
         while((x=cr.read())!=-1)
         {
             System.out.print((char)x);
-            
         }
-        
         cr.close();
     }
-    
 }
