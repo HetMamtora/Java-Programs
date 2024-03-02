@@ -52,6 +52,15 @@ public class ObjectStreamSerialisation {
         oos.close();*/
         
         //READ DATA FROM FILE
+        FileInputStream fis=new FileInputStream("Student.txt");
+        ObjectInputStream ois=new ObjectInputStream(fis);
+        
+        Student s=(Student)ois.readObject();
+        
+        System.out.println(s);
+        
+        fis.close();
+        ois.close();
     }
     
 }
