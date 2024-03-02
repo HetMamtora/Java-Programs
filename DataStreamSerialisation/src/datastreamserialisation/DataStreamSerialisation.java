@@ -14,7 +14,8 @@ public class DataStreamSerialisation {
     public static void main(String[] args) throws Exception{
         // TODO code application logic here
         
-        FileOutputStream fos=new FileOutputStream("Student1.txt");
+        //WRITING INTO FILE
+        /*FileOutputStream fos=new FileOutputStream("Student1.txt");
         DataOutputStream dos=new DataOutputStream(fos);
         
         Student s=new Student();
@@ -31,7 +32,25 @@ public class DataStreamSerialisation {
         //TXT FILE IS ACTUALLY BINARY FILE OPEN IT TO UNDERSTAND
         
         dos.close();
-        fos.close();
+        fos.close(); */
+        
+        //READING FROM FILE
+        FileInputStream fis=new FileInputStream("Student1.txt");
+        DataInputStream dis=new DataInputStream(fis);
+        
+        Student s=new Student();
+        s.rollno=dis.readInt();
+        s.name=dis.readUTF();
+        s.dept=dis.readUTF();
+        s.avg=dis.readFloat();
+        
+        System.out.println("Roll.No: "+s.rollno);
+        System.out.println("Name: "+s.name);
+        System.out.println("Department: "+s.dept);
+        System.out.println("Average: "+s.avg);
+        
+        dis.close();
+        fis.close();
     }
     
 }
