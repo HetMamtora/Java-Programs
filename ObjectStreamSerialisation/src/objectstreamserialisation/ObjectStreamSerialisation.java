@@ -26,12 +26,12 @@ class Student implements Serializable
     public String toString()
     {
         return "\nStudent Details\n"+
-                "\nRoll "+rollno+
-                "\nName "+name+
-                "\nAverage "+avg+
-                "\nDept "+dept+
-                "\nData "+Data+
-                "\nTransient "+t+"\n";
+                "\nRoll.No: "+rollno+
+                "\nName: "+name+
+                "\nAverage: "+avg+
+                "\nDepartment "+dept+
+                "\nData: "+Data+
+                "\nTransient: "+t+"\n";
     }
 }
 
@@ -39,6 +39,19 @@ public class ObjectStreamSerialisation {
 
     public static void main(String[] args) throws Exception{
         // TODO code application logic here
+        
+        //WRITE DATA INTO FILE
+        /*FileOutputStream fos=new FileOutputStream("Student.txt");
+        ObjectOutputStream oos=new ObjectOutputStream(fos);
+        
+        Student s=new Student(10,"ABC",89.9f,"CSE");
+        
+        oos.writeObject(s);
+        
+        fos.close();
+        oos.close();*/
+        
+        //READ DATA FROM FILE
     }
     
 }
