@@ -40,7 +40,7 @@ public class GenericJavaDemo4 {
     }*/
     
     //UNBOUNDED WILDCARD
-    static void fun(MyArray<? super B> obj)
+    static void fun(MyArray<? super C> obj)
     {
         obj.display();
     }
