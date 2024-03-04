@@ -25,6 +25,15 @@ public class DateTime {
         System.out.println(d1);
         
         //3-CALENDER CLASS
+        GregorianCalendar gc=new GregorianCalendar();
+        System.out.println(gc.isLeapYear(2020));
+        System.out.println(gc.get(Calendar.MONTH)); //CHANGE METHODS TO UNDERSTAND
+        
+        //4-TIME ZONE
+        TimeZone tz=gc.getTimeZone();
+        System.out.println(tz);
+        System.out.println(tz.getDisplayName());
+        System.out.println(tz.getID());
         
     }
     
