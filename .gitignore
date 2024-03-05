@@ -298,3 +298,5 @@
 /ReverseEchoServer/build/
 /ReverseEchoMultiThread/nbproject/private/
 /DatagramClient/nbproject/private/
+/DatagramClient/dist/
+/DatagramClient/build/
