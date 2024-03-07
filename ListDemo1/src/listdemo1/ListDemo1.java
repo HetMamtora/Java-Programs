@@ -5,9 +5,16 @@ public class ListDemo1 {
 
     public static void main(String[] args) {
         // TODO code application logic here
-        ArrayList<Integer> al1=new ArrayList<>(20);
         
-        ArrayList<Integer> al2=new ArrayList<>(List.of(50,60,70,80,90));
+        //ARRAY LIST = LECTURE - 243
+        //ArrayList<Integer> al1=new ArrayList<>(20);
+        //ArrayList<Integer> al2=new ArrayList<>(List.of(50,60,70,80,90));
+        
+        
+        //LINKED LIST = LECTURE - 244
+        LinkedList<Integer> al1=new LinkedList<>();
+        
+        LinkedList<Integer> al2=new LinkedList<>(List.of(50,60,70,80,90));
         
         al1.add(10);
         al1.add(0,5);
@@ -58,6 +65,4 @@ public class ListDemo1 {
             System.out.println(n);
     }
         
-    }
-    
 }
